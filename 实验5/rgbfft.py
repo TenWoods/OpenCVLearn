@@ -73,8 +73,8 @@ def bandpass(img):
     # plt.show()
     return img_back
 
-img = cv2.imread('child.jpg')
-img_gray = cv2.imread('child.jpg', 0)
+img = cv2.imread('test.png')
+img_gray = cv2.imread('test.png', 0)
 cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
 img_b = img[:,:,0]
 img_g = img[:,:,1]
